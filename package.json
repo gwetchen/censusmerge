@@ -1,5 +1,8 @@
 {
+  "type": "module",
   "dependencies": {
-    "luaparse": "^0.3.1"
+    "fs": "^0.0.1-security",
+    "luaparse": "^0.3.1",
+    "node-fetch": "^3.3.2"
   }
 }

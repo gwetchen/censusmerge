@@ -10,9 +10,12 @@ import subprocess
 
 with open('CensusPlusTurtle.lua') as file1:
     lines = file1.read()
-    tree = str(ast.parse(lines))
+    tree = (ast.parse(lines))
     #print(ast.to_pretty_str(tree))
-    ast = ast2json(parse(tree))
+    #gelos = ast2json(parse(tree))
+    with open('Output.ast', 'w') as file3:
+        file3.write(ast.to_pretty_str(tree))
+    
     #gelos = ast2json(tree) 
     #with open('Output.lua', 'w') as file3:
     #   file3.write(json.dumps(gelos, indent=4))
