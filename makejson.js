@@ -4,16 +4,6 @@ globalThis.fetch = fetch;
 import * as fs from 'fs';
 
 
-
-
-
-//var rawDataUri = '/CensusPlusTurtle.lua';
-//const raw = fetch(rawDataUri);
-//const json = LuaParse.parse(raw, {
-//    comments: false,
-//    });
-//fs.writeFile('output.json', json);
-
 function _parseLua(input) {
     let result = LuaParse.parse(input, {
         comments: false,
