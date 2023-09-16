@@ -1,7 +1,5 @@
 node_modules
 node_modules/.package-lock.json
-output.json
-README.md
 CensusPlusTurtle1.lua
-.gitignore
+CensusPlusTurtle.lua
 .gitignore
